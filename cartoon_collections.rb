@@ -13,6 +13,6 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.each do |element, index|
     number = index + 1
-    p number + ". #{element}"
+    p "#{number.to_s}. #{element}"
   end
 end
